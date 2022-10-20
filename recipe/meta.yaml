@@ -14,7 +14,7 @@ source:
   git_url: https://github.com/SCMusson/{{ name }}.git
 
 build:
-  number: 1
+  number: 0
   string: cuda{{ cuda_compiler_version | replace('.', '') }}py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}   # [cuda_compiler_version != "None"]
   string: cpu_py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}                                                 # [cuda_compiler_version == "None"]
   skip: true  # [cuda_compiler_version in (undefined, 'None', '10.2')]
