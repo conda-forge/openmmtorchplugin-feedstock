@@ -6,7 +6,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: dev
 
 source:
   #url: https://github.com/SCMusson/{{ name }}/archive/v{{ version }}.tar.gz
