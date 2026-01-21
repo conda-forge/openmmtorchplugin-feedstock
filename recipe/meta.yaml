@@ -11,7 +11,7 @@ source:
 
 build:
   number: 4
-  skip: true  # [cuda_compiler_version in (undefined, "None", "10.2", "11.0", "11.1")]
+  skip: true  # [cuda_compiler_version in (undefined, "None")]
   skip: true  # [not unix]
   rpaths:
     - lib/
