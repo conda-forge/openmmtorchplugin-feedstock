@@ -10,7 +10,7 @@ source:
   sha256: ad5275a05303f79180b9f7f177909f8b8fe0f90fa7b1835284e27d303cc998a8
 
 build:
-  number: 4
+  number: 5
   skip: true  # [cuda_compiler_version in (undefined, "None")]
   skip: true  # [not unix]
   rpaths:
